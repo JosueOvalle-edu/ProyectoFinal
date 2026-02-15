@@ -1,0 +1,16 @@
+Contexto:
+La empresa de seguros TK-U, que se encuentra ubicada en la ciudad de Jedha, realiza sus cotizaciones de manera manual. Haciendo todo el proceso lento e ineficiente, al tener un límite físico de máximo 50 cotizaciones al dia, esto genera retrasos y perdidas de clientes potenciales.
+
+Solución:
+Se requiere digitalizar el proceso, con un programa que debe calcular el precio total de un seguro básandose en un precio base (Q2,000.00) al cual se le debe de sumar diversos recargos porcentuales según las condiciones del cliente.
+
+Factores que modifican la cotización:
+El valor final esta arraigado a la condición del cliente en los siguientes casos:
+
+1. Edad del asegurado: Según rando (18-24 años: 10%; 25-49 años: 20%; 50 años o más: 30%)
+
+2. Estado civil y la edad del conyúge: Si el cliente está casado, se le aplicará un recargo adicional, el porcentaje estará determinado por la edad de su pareja, siguiendo los porcentajes anteriores.
+
+3. Cantidad de hijos: Se aplicará un recargo fijo sin importar la edad de los hijos de un 20%.
+
+4. Requisito de edad: El asegurado principal deberá ser mayor de edad para que sea tomado en cuenta por el programa.
