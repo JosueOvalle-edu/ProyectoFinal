@@ -1,0 +1,29 @@
+El algoritmo sigue los siguientes pasos:
+
+1. Inicio e inicialización de variables.
+
+2. Inicio del ciclo principal: Repetir el proceso mientras el usuario responda no a la pregunta final.
+
+3. Solicitar nombre y edad del asegurado.
+
+4. Preguntar si está casado (y edad del cónyuge) y si tiene hijos (y cuántos).
+
+5. Solicitar cantidad de propiedades y salario mensual.
+
+6. A todas estas entradas se convierte tu input a integer (excepto el nombre).
+
+7. Evaluar los rangos (18-24, 25-49, 50+) para el asegurado y aplicar el porcentaje correspondiente sobre el precio base.
+
+8. Si aplica, evaluar la edad del cónyuge en los mismos rangos y sumar el recargo.
+
+9. Multiplicar la cantidad de hijos por el 20% del precio base.
+
+10. Sumar el 35% por cada propiedad y el 5% sobre el salario.
+
+11. Sumar el precio base más todos los recargos acumulados.
+
+12. Mostrar al usuario el nombre, el recargo total y el precio final.
+
+13. Preguntar al usuario si desea realizar otra cotización (si/no), si escribe "no" finalizará el programa.
+
+14. Fin.
